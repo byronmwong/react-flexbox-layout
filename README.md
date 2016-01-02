@@ -22,6 +22,10 @@ Simple flexible layouts for IE9+
 </HLayout>
 ```
 
+## Demo
+
+https://byronmwong.github.io/react-flexbox-layout/
+
 ## Set up
 
 * Run examples server: `npm run examples`, `http://localhost:8080`
