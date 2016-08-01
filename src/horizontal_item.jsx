@@ -13,7 +13,7 @@ export default class HLayoutItem extends React.Component {
     };
 
     return (
-      <div {...this.props} {...props}
+      <div {...props}
         className={classNames(this.props.className, this._getClassName())}
       >
         {this.props.children}

@@ -16,7 +16,6 @@ export default class HLayoutItemIE9 extends React.Component {
       return (
         <div ref="inner"
           data-display-name="HLayoutItem"
-          {...this.props}
           className={this.props.className ? this.props.className + ' ' + this._getClassname() : this._getClassname()}
           style={extend(this._getInnerStyles(), this._getWrapperStyles(), this.props.style)}
         >
@@ -25,7 +24,7 @@ export default class HLayoutItemIE9 extends React.Component {
       );
     } else {
       return (
-        <div data-display-name="HLayoutItemWrapper" {...this.props} style={extend(this._getWrapperStyles())}>
+        <div data-display-name="HLayoutItemWrapper" style={extend(this._getWrapperStyles())}>
           <div style={{display: 'inline-block', verticalAlign: 'middle', width: 0, overflow: 'hidden'}}>a</div>
           <div ref="inner"
             data-display-name="HLayoutItem"

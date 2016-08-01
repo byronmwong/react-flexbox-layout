@@ -44,7 +44,6 @@ export default function(defaultGutter, gutterMultiplier, defaultGutterUnit) {
 
       return (
         <div ref="wrapper" data-display-name="VLayoutWrapper"
-          {...this.props}
           style={extend(this._getLayoutWrapperStyles(), this.props.style)}
         >
           <div ref="container" data-display-name="VLayout"

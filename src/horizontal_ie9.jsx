@@ -46,7 +46,6 @@ export default function(defaultGutter, gutterMultiplier, defaultGutterUnit) {
       return (
         <div ref="horizontal"
           data-display-name="HLayout"
-          {...this.props}
           style={extend(this._getLayoutStyles(), this.props.style)}
         >
           {children}

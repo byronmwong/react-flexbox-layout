@@ -10,7 +10,6 @@ export default class VLayoutItem extends React.Component {
     return (
       <div
         data-display-name="VLayoutItem"
-        {...this.props}
         className={classNames(this.props.className, this._getClassName())}
         style={extend(this._getStyles(), this.props.style)}
       >

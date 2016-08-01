@@ -34,7 +34,6 @@ export default function(defaultGutter, gutterMultiplier, defaultGutterUnit) {
       return (
         <div
           data-display-name="HLayout"
-          {...this.props}
           className={classNames(this.props.className, this._getContainerClassName())}
           style={extend(this._getContainerStyles(), this.props.style)}
         >
