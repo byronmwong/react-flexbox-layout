@@ -158,9 +158,7 @@ export default function(defaultGutter, gutterMultiplier, defaultGutterUnit) {
       if (this._isFlexboxLayout()) {
         styles.display = 'block';
       } else {
-        // NOTE: use !important override rflGrowChildStatic className, which uses display: block !important
-        // to override children who use display: inline-block
-        styles.display = 'table !important';
+        styles.display = 'table';
         styles.tableLayout = 'fixed';
       }
 
